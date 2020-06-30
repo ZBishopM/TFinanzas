@@ -17,3 +17,9 @@ dotnet ef database update -c DbBonosContext --project BonosCalculadora
 ```
 dotnet -run --project BonosCalculadora
 ```
+
+## Development mode
+
+```
+$ dotnet watch --project BonosCalculadora run
+```
